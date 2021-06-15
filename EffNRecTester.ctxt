@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=EffNRecTester
+comment1.params=str
+comment1.target=java.lang.String\ fixString(java.lang.String)
+comment2.params=statement\ expected\ actual
+comment2.target=void\ DO_TEST(java.lang.String,\ java.lang.Object,\ java.lang.Object)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

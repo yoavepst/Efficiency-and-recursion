@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=EffNRec
+comment0.text=\r\n\ This\ class\ contains\ the\ answers\ for\ Ex14.\r\n\r\n\ @author\ (Yoav\ Epstein)\r\n\ @version\ (11/1/21)\r\n
+comment1.params=y
+comment1.target=boolean\ isEmpty(int[])
+comment10.params=mat\ row\ col
+comment10.target=boolean\ lastCell(boolean[][],\ int,\ int)
+comment11.params=mat\ row\ col
+comment11.target=void\ makeFalse(boolean[][],\ int,\ int)
+comment2.params=a
+comment2.target=int\ findSingle(int[])
+comment2.text=\r\n\ Finding\ the\ single\ integer\ number,\ who\ breaks\ the\ rule,\ in\ an\ array\ of\ integer\ numbers\ which\ appears\ twice\ in\ a\ row.\ <br>\r\n\ <br>\ Complexity\:\ \r\n\ <br>\ Time\ complexity\:\ n/(2^x)\ \=\ 3\ -->\ x\ \=\ log2(n/3)\ -->\ T(n)\ \=\ log2(n/3)\ +\ 3\ \=\ O(log\ n)\ +\ O(1)\ \=\ O(log\ n)\r\n\ <br>\ Memort\ complexity\:\ T(n)\ \=\ 1\ +\ 1\ +\ 1\ +\ 1\ \=\ O(1)\ <br>\ \r\n\ @param\ a\ The\ array\ in\ which\ it\ finds\ singular\ number\r\n\ @return\ The\ singular\ number\r\n
+comment3.params=arr\ x
+comment3.target=int\ smallestSubSum(int[],\ int)
+comment3.text=\r\n\ Finding\ the\ minimal\ (set\ power\ related)\ sub\ array,\ that\ its\ summery\ equals\ more\ then\ a\ given\ integer\ number.\r\n\ <br>\ Will\ be\ valid\ under\ the\ following\:\ All\ the\ numbers\ in\ the\ array\ are\ zero\ or\ positive.\r\n\ <br>\ Complexity\:\r\n\ <br>\ Time\ complexity\:\ T(n)\ \=\ n\ +\ n\ \=\ 2n\ \=\ O(n)\r\n\ <br>\ Memort\ complexity\:\ T(n)\ \=\ 1\ +\ 1\ +\ 1\ +\ 1\ \=\ O(1)\ \r\n\ @param\ arr\ The\ array\ in\ which\ it\ finds\ the\ minimal\ sub\ array\r\n\ @param\ x\ The\ integer\ number\ to\ be\ equaled\ to\r\n\ @return\ The\ smallest\ sub\ array\r\n
+comment4.params=num
+comment4.target=int\ solutions(int)
+comment4.text=\r\n\ Finding\ and\ printing\ all\ the\ possible\ solution\ of\ a\ summery\ of\ 3\ given\ numbers\ (between\ 1-10)\ and\ a\ given\ integer\ number.\ \ \r\n\ @param\ num\ The\ integer\ number\ to\ be\ summerize\ to\r\n\ @return\ The\ number\ of\ possible\ solutions\r\n
+comment5.params=num\ count\ str
+comment5.target=int\ solutions(int,\ int,\ java.lang.String)
+comment6.params=mat
+comment6.target=int\ cntTrueReg(boolean[][])
+comment6.text=\r\n\ Finding\ how\ many\ true\ zones\ are\ in\ a\ given\ matrix.\r\n\ <br>\ Will\ be\ valid\ under\ the\ following\:\r\n\ <br>The\ matrix\ is\ a\ square\ matrix.\r\n\ <br>True\ zone\ is\ vaild\ when\ true\ cells\ are\ located\ either\ above/under\ or\ left/right\ to\ each\ other.\r\n\ @param\ mat\ The\ matrix\ in\ which\ it\ finds\ true\ zones\r\n\ @return\ The\ number\ of\ true\ zones\r\n
+comment7.params=mat\ row\ col\ count
+comment7.target=int\ cntTrueReg(boolean[][],\ int,\ int,\ int)
+comment8.params=y
+comment8.target=boolean\ isEmpty(boolean[][])
+comment9.params=mat\ row\ col
+comment9.target=boolean\ isLegal(boolean[][],\ int,\ int)
+numComments=12
